@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Radio+Canada:wght@600&display=swap');
+
+:root{
+    --header-background: hsl(281, 42%, 61%);
+    --secondary-font-color:hsl(0, 0%, 100%);
+    --primary-font-color:hsl(0, 0%, 44%);
+    --headings-color:hsl(24, 14%, 7%);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 1.125rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1, h2{
+    margin-bottom: 1rem;
+}
+
+p{
+    margin-bottom: 1rem;
+}
+
+li{
+    list-style: none;
+}
+
+img{
+    width: 100%;
+}
+
+/* the header */
+.header{
+    background-color: var(--header-background);
+    color: var(--secondary-font-color);
+    height: 100vh;
+}
+
+nav{
+    height: 4.375rem;
+}
+
+nav ul{
+    display: flex;
+    
+}
+
+nav a{
+    padding: 0.625rem;
+    color: var(--secondary-font-color);
+}
+
+.showcase img{
+    width: 50%;
+}
+
+.showcase-content{
+    width: 45%;
+}
+
+/* innovative sections */
+
+.section-2{
+    padding: 2.6rem 0;
+
+}
+
+.inovative img{
+    width: 10%;
+}
+
+.inovative .box{
+    width: 80%;
+    
+}
+
+
+/* services section */
+
+.services img{
+    
+    width: 20%;
+}
+
+.services-content{
+    padding: 2.6rem 0;
+}
+
+
+/* footer */
+
+.footer{
+    background-color: var(--header-background);
+    color: var(--secondary-font-color);
+    height: 20rem;
+}
+
+.footer nav{
+    border-bottom: 2px solid var(--secondary-font-color);
+}
+
+.footer-content{
+    padding: 1.875rem 0;
+
+} 
+
+
+
+
+
+/* the utilities */
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 1.2rem;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+
+
+}
+
+.btn{
+    padding: 0.625rem 1.875rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 1.25rem;
+    color: var(--header-background);
+}
+
+.box{
+    background-color: var(--secondary-font-color);
+    color: var(--primary-font-color);
+    border-radius: 0.625rem;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    padding: 1.875rem;
+    margin: 1.25rem;
+}
